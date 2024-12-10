@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+    color: blue;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    text-align: center;
+    border: 20px;
+    padding: 0px;
+}
+
+.menu li {
+    margin: 10px; /* Space between boxes */
+    padding: 20px; /* Space inside each box */
+    border: 2px solid #ccc; /* Light gray border */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    display: inline-block; /* Make list items behave like blocks */
+    width: calc(25% - 22px); /* Set width and adjust for margins */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.menu li a {
+    text-decoration: none;
+    color: green;
+    display: block;
+}
+
+.menu li a:hover{
+    color: red;
+}
